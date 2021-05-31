@@ -319,6 +319,8 @@ class Lotto extends React.Component {
     )
 
     const MainNumber = () => {
+      let now = new Date(value);
+      console.log(now);
       console.log("mainNumber");
       return(
         <>
