@@ -23,7 +23,7 @@ div {
   background: #f3f3f3;
   padding: 10px 10px 10px 10px;
   border-radius: 10px;
-  margin: 10px clamp(0px, 5vw, 10px);
+  margin: 10px min(5vw, 10px);
   justify-content: center;
 }
 
