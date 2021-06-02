@@ -15,7 +15,7 @@ function FetchApi(props) {
     const fetchNumbers = async () => {
       let tempArr = Array(0).fill(null);
       const numbersToGet = 52;
-      const requestUri = 'http://localhost:5000/lottos/';
+      const requestUri = 'https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=';
       let finalNumber = 970;
       let startNumber = finalNumber - numbersToGet;
       const word = 'drwtNo'
